@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_2"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_user"
+
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:paddingStart="10sp"
+        android:drawablePadding="10sp"/>
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10sp"
+        android:hint="Email"
+        android:minHeight="48dp"
+        android:paddingStart="10sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="10sp"
+        android:ems="5"/>
+
+    <Button
+        android:id="@+id/btnSignin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_bg_new"
+        android:text="Sign in"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

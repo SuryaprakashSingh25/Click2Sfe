@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background_2">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10sp"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:paddingStart="10sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingStart="10sp"
+        android:drawablePadding="10sp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conformPassword"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_bg_new"
+        android:text="Register"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignup"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_bg_new"
+        android:text="Already have an Account? Sign in"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_password"
+        android:ems="5"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="10sp"
+        android:drawablePadding="10sp" />
+
+    <EditText
+        android:id="@+id/conformPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_bg"
+
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10sp"
+        android:ems="5"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="10sp" />
+
+
+</RelativeLayout>

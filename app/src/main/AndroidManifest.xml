@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.miniproject.projectc2s">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <!-- permissions to read contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- permissions to write contacts -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- permissions to make a call -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- permissions to send sms -->
+    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- permissions to write sms -->
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/clicklogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectC2S">
+        <activity
+            android:name=".AboutUs"
+            android:exported="true" />
+        <activity
+            android:name=".HelplineList"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".ContactPicker" -->
+        <!-- android:exported="true" /> -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GoogleMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_google_maps" />
+        <activity
+            android:name=".Law12Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law11Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law10Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law9Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law8Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law7Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law6Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Law5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".LawActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".Law3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".LawActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".Law1Activity"
+            android:exported="true"
+            android:label="@string/title_activity_law1"
+            android:theme="@style/Theme.ProjectC2S.NoActionBar" />
+        <activity
+            android:name=".ContactDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateNewContactActivity"
+            android:exported="true" />
+        <activity
+            android:name=".maps"
+            android:exported="true" />
+        <activity
+            android:name=".helpline"
+            android:exported="true" />
+        <activity
+            android:name=".video"
+            android:exported="true" />
+        <activity
+            android:name=".laws"
+            android:exported="true" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerifyOtpActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SendOtpActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/law"
+        android:title="Laws"
+        android:icon="@drawable/ic_law"/>
+    <item
+        android:id="@+id/map"
+        android:title="Maps"
+        android:icon="@drawable/ic_map"/>
+    <item
+        android:id="@+id/video"
+        android:title="Videos"
+        android:icon="@drawable/ic_video"/>
+    <item
+        android:id="@+id/helpline"
+        android:title="Contacts"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

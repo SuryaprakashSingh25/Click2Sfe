@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Click2Safe</string>
+    <string name="otp_verification">otpVerification</string>
+    <string name="we_will_send_you_a_one_time_password_on_your_mobile_number">We will send you a one time password on your mobile number</string>
+    <string name="OtpVerification">Otp Verification</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_91">+91-</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="_1620213212">1620213212</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="didn_t_received_the_otp">Didn\'t received the OTP?</string>
+    <string name="resend_otp">Resend Otp</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_law1">Law1Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_law4">Law4Activity</string>
+
+
+    <string name="paragraph">\nDefences Against Culpable Homicide: \nAn Analysis on Self defence
+<b>“The right of self defense is absolutely necessary. The vigilance of magistrates can never make up for vigilance of each individual on his own behalf. The fear of law can never restrain bad men as the fear of the sum total of individual resistance. Take away this and you become, in so doing, the accomplice of all bad men.”</b></string>
+    <string name="paragraph2">\nRight of private defence cannot be said to be an offence in return. The right of self-defence under Section 96 is not absolute but is clearly qualified by Section 99, which says that the right in no case extends to the inflicting of more harm than is necessary for defence. </string>
+    <string name="paragraph3">\nThis section of the Indian Penal Code divides the right of private defence into two parts. The first part deals with the right of private defence of a person, and the second part with the right of private defence of property. This right extends not only to the defence of one’s own body or property but also to defend the body and property of any other person. Even a stranger can defend the person or property of another person and vice versa.
+</string>
+    <string name="paragraph4">\nIt assumes that the right to private defence from its very nature admits of no exception since it is the right to preserve one’s life and property and another’s life and property against the world at large. The right of defence of the body exists against all attackers, with or without men’s rea</string>
+    <string name="paragraph5">\nThere is no right of Private defence – law for self-defence
+\ni) against the acts of a public servant acting in good faith.
+\nii) against the acts of those acting under the authority or direction of a public servant.
+\niii) where there is sufficient time for recourse to public authorities.
+\niv) the quantum of harm that may be caused shall in no case be in excesses.
+</string>
+    <string name="paragraph6"> To invoke this section following four conditions must exist.
+\ni) The person exercising the right of private defence must be free from fault in bringing about encounters.
+\nii) There must be present, an impending peril to life or of great bodily harm, rape, unnatural lust, kidnapping or abduction, wrongful confinement, etc.
+\niii) There must be no safe or reasonable mode of escape by retreat, and
+\niv) There must have been a necessity for taking the life.
+</string>
+    <string name="paragraph7">\nSection 101 provides that, if the offence is not of any of the description enumerated in Section 100; the right of private defence of the body does not extend to the voluntary causing of death to the assailant, but does extend to the voluntary causing to the assailant of any harm other than death.
+Thus, under this section, any harm short of death can be inflicted in the exercise of the right of private defence in any case which does not fall within the provisions of Section 100.
+</string>
+    <string name="paragraph8">Section 102 deals with two fundamental aspects of the right of private defence of the body at what point of time does the right commence, and how long does it continue. The section says that the right commences at that point of time when a reasonable apprehension of danger to the body arises either from an attempt to commit an offence on the body or from a threat to commit such offence even though in either of these cases the offence itself may not have been committed. The right continues till such apprehension of danger to the body continues. This law does not command that to exercise such a right, one must wait until the first blow on the body falls. The right gets vested as soon as reasonable apprehension of danger to the body arises either by an attempt or a threat of an offence relating to the body through the offence may not have been committed.</string>
+    <string name="paragraph9">The right of private defence of property extends under the restrictions mentioned in section 99, to the voluntary causing of death or any other harm to the wrong-doer, if the offence, the committing of which, or the attempting to commit which, occasions the exercise of the right, be an offence of any of the descriptions hereinafter enumerated, namely Robbery ; House-breaking by night;Mischief by fire committed on any building, tent or vessel, which building, tent or vessel is used as a human dwelling, or as a place for the custody of property; Theft, mischief, or house-trespass, under such circumstances, may reasonably cause apprehension that death or grievous hurt will be the consequence of such right of private defence is not exercised.
+</string>
+    <string name="paragraph10">In the law for self-defence, this section is a corollary of section 103. It says that where the offence of theft, mischief or criminal trespass has been committed or attempted but the description is different from those enumerated in section 103 of the Code; the right of private defence of property extends only up to the extent to voluntary causing of any other harm than death. The relationship of this section with section 103, both dealing with the defence of property, is similar in nature to that of section 101 with section 100 of the Code, both dealing with the body’s defence. The section also states that the restrictions mentioned under section 99 of the Code shall have an overriding influence on this right. </string>
+    <string name="paragraph11">This section is analogous to Section 102 and indicates when the right of defence of property commences, and till that period, it continues. In case of theft, the right of private defence of property is put to an end by the successful retreat of the thief; if the thief is running away with the property, he cannot be said to have retreated.
+It is only when he reaches the final destination that he can be said to have retreated. Whether or not there was enough time for the injured party to have recourse to the protection of the public authorities is always a question of fact, depending on the circumstances of each case.
+</string>
+    <string name="paragraph12">This section removes an impediment in the right of private defence. The impediment is the doubt in the defender’s mind as to whether he is entitled to exercise his right even when there is a possibility of some innocent persons being harmed by his actions. The section says that in case of an assault, reasonably causing an apprehension of death, if the defender is faced with such a situation where there exists the risk of harm to an innocent person, there is no restriction on him to exercise his right of defence. He is entitled to run that risk. In other words, with the presence of innocent persons in situations where one is entitled to exercise his right of private defence, there is no curtailment in one’s right. He is entitled to use force even at the risk of causing harm to those innocent persons. The only condition is that he can do such a thing only when there is an apprehension of death. If the apprehension is of any other kind but not of death, this section does not give him such a right.
+</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+
+    <string name="paraInfo" >C2S : Click2Safe is an reliant application which will make women feel safe and empowered.
+   \nThis application allows you to call and message your predetermined emergency contacts and nearby police stations at the time of need.
+    \nIt has also laws and self defence videos which one can refer which might help in emergency. It contains various helpline numbers which can help anytime and anywhere.
+    \nC2S uses Maps for identifying the current location of the user in trouble and sends the current location to the selected contact via SMS.
+     \nC2S : Click2Safe Application will be helpful to all the women around the globe which will not require any extra efforts and <b>JUST A CLICK</b>.
+    </string>
+</resources>
