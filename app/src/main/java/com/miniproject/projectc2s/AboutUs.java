@@ -1,5 +1,5 @@
 package com.miniproject.projectc2s;
-
+//this is about us
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
